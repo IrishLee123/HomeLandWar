@@ -16,7 +16,7 @@ public class RoleInfo : MonoBehaviour
         _roleData = roleData;
 
         OnBulletCountChange(roleData.BulletCount.Value);
-        
+
         _roleData.BulletCount.RegisterOnValueChanged(OnBulletCountChange).UnRegisterWhenGameObjectDestroyed(gameObject);
     }
 

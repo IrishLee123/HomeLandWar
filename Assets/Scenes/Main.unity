@@ -2899,6 +2899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletCount: {fileID: 1335530753}
+  idText: {fileID: 0}
 --- !u!222 &878812913
 CanvasRenderer:
   m_ObjectHideFlags: 0
